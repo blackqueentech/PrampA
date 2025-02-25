@@ -38,7 +38,7 @@ struct ContentView: View {
     }
     
     func loadData() async {
-        let apiKey = "live_VRPWG9rpeFHORT9SAE2GV7Fl0SkbVAUquEQk5yzFdrLL0hBE3vXnInkbk6u1V7kQ"
+        let apiKey = ""
         guard let url = URL(string: "https://api.thecatapi.com/v1/breeds?api_key=\(apiKey)")
         else {
             print("Invalid URL")
